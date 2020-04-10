@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ImgPrc - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ImgPrc.res" /d "_DEBUG" "C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrc.rc"" 
+Creating temporary file "C:\Users\jayash\AppData\Local\Temp\RSP5494.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/ImgPrc.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\jayash\Desktop\图书\ImgPrc\ChildFrm.cpp"
+"C:\Users\jayash\Desktop\图书\ImgPrc\DlgFiles.cpp"
+"C:\Users\jayash\Desktop\图书\ImgPrc\FFT.CPP"
+"C:\Users\jayash\Desktop\图书\ImgPrc\hist_draw.cpp"
+"C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrc.cpp"
+"C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcDoc.cpp"
+"C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp"
+"C:\Users\jayash\Desktop\图书\ImgPrc\MainFrm.cpp"
+"C:\Users\jayash\Desktop\图书\ImgPrc\ZXDib.cpp"
+]
+Creating command line "cl.exe @C:\Users\jayash\AppData\Local\Temp\RSP5494.tmp" 
+Creating temporary file "C:\Users\jayash\AppData\Local\Temp\RSP5495.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\jayash\Desktop\图书\ImgPrc\ImageProcess.cpp"
+]
+Creating command line "cl.exe @C:\Users\jayash\AppData\Local\Temp\RSP5495.tmp" 
+Creating temporary file "C:\Users\jayash\AppData\Local\Temp\RSP5496.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/ImgPrc.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\jayash\Desktop\图书\ImgPrc\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\jayash\AppData\Local\Temp\RSP5496.tmp" 
+Creating temporary file "C:\Users\jayash\AppData\Local\Temp\RSP5497.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ImgPrc.pdb" /debug /machine:I386 /out:"Debug/ImgPrc.exe" /pdbtype:sept 
+".\Debug\ChildFrm.obj"
+".\Debug\DlgFiles.obj"
+".\Debug\FFT.OBJ"
+".\Debug\hist_draw.obj"
+".\Debug\ImageProcess.obj"
+".\Debug\ImgPrc.obj"
+".\Debug\ImgPrcDoc.obj"
+".\Debug\ImgPrcView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ZXDib.obj"
+".\Debug\ImgPrc.res"
+".\CH375DLL.lib"
+]
+Creating command line "link.exe @C:\Users\jayash\AppData\Local\Temp\RSP5497.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+DlgFiles.cpp
+FFT.CPP
+hist_draw.cpp
+ImgPrc.cpp
+ImgPrcDoc.cpp
+ImgPrcView.cpp
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(118) : error C2059: syntax error : '&&'
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(118) : error C2143: syntax error : missing ';' before '}'
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(118) : error C2143: syntax error : missing ';' before '}'
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(119) : error C2143: syntax error : missing ';' before '{'
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(119) : error C2447: missing function header (old-style formal list?)
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(119) : error C2143: syntax error : missing ';' before ','
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(120) : error C2143: syntax error : missing ';' before '{'
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(120) : error C2447: missing function header (old-style formal list?)
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(120) : error C2143: syntax error : missing ';' before ','
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(121) : error C2143: syntax error : missing ';' before '{'
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(121) : error C2447: missing function header (old-style formal list?)
+C:\Users\jayash\Desktop\图书\ImgPrc\ImgPrcView.cpp(121) : error C2143: syntax error : missing ';' before '}'
+MainFrm.cpp
+ZXDib.cpp
+Generating Code...
+Error executing cl.exe.
+Creating temporary file "C:\Users\jayash\AppData\Local\Temp\RSP5C2A.tmp" with contents
+[
+/nologo /o"Debug/ImgPrc.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\ChildFrm.sbr"
+".\Debug\DlgFiles.sbr"
+".\Debug\FFT.SBR"
+".\Debug\hist_draw.sbr"
+".\Debug\ImageProcess.sbr"
+".\Debug\ImgPrc.sbr"
+".\Debug\ImgPrcDoc.sbr"
+".\Debug\ImgPrcView.sbr"
+".\Debug\MainFrm.sbr"
+".\Debug\ZXDib.sbr"]
+Creating command line "bscmake.exe @C:\Users\jayash\AppData\Local\Temp\RSP5C2A.tmp"
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Debug\ImageProcess.sbr': No such file or directory
+Error executing bscmake.exe.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+ImgPrc.exe - 13 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
