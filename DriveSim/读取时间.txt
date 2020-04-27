@@ -1,0 +1,5 @@
+png图片，同一个线程读3路： 23000 ms/100f    debug
+						   6000  ms/100f    release
+bmp图片，同一个线程读3路： 1500  ms/100f    debug
+                           1300  ms/100f   release
+bmp图片，3个线程读3路：    900   ms/100f   release
